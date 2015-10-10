@@ -2,7 +2,8 @@
 
 # StatedFragment
 
-Provides a functionality to retrieve `onActivityResult` in nested fragment.
+关于这个库的详细说明在这里： Android中保存和恢复Fragment状态的最好方法 
+继承StatedFragment，同时分别在onSaveState(Bundle outState)和onRestoreState(Bundle savedInstanceState)中保存和取出状态数据。如果你想在fragment第一次启动的时候做点什么，你也可以重写onFirstTimeLaunched()，它只会在第一次启动的时候被调用。
 
 # Version
 
